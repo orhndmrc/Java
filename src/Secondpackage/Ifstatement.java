@@ -9,5 +9,6 @@ public class Ifstatement {
         if(remainder==1){
             System.out.println("odd");
         }
+        System.out.println("Hi there!");
     }
 }
