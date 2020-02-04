@@ -9,6 +9,7 @@ public class KeyboardInput {
         int side1;
         int side2;
         int side3;
+
         side1 = myKeyword.nextInt();
          side2 = myKeyword.nextInt();
          side3 = myKeyword.nextInt();
