@@ -10,7 +10,7 @@ public class ComparisonPurchase {
         System.out.println("Please enter discount percentage(0.1-0.9):");
         double discount = purchaseDecision.nextDouble();
        int colorValue = 0;
-        if(Color.compareToIgnoreCase("red")==0){
+        if(Color.compareToIgnoreCase("red")==0){  //Color.compareToIgnoreCase("red")==0---->size.equals("red") but the first one ignores upper and lower case letters
             colorValue = 20;
         }
       else if(Color.compareToIgnoreCase("blue")==0){
