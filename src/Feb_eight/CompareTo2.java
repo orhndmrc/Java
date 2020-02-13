@@ -7,7 +7,7 @@ public class CompareTo2 {
         System.out.println("Please enter C,R, or T :");
         //Receiving answer from the user
         String shape= myScan.next();
-        //IgnoreCase = ignoring cases whether it is capital or lower cas"T or t"
+        //IgnoreCase = ignoring cases whether it is capital or lower like "T or t"
       if(shape.compareToIgnoreCase("c")==0){
           System.out.println("please enter radius = ");
           double radius = myScan.nextDouble();

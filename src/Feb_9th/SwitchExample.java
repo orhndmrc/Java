@@ -36,10 +36,10 @@ public class SwitchExample {
             case "ten":
                 System.out.println(10);
                 break;
-            default: {
+            default:
                 System.out.println("Only one-ten numbers");
                 break;
-            }
+
         }
     }
 }
