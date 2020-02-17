@@ -10,5 +10,11 @@ public class Example_3 {
 
             System.out.println();
         }
+        for (char x='a'; x<='e'; x++)
+            for (char y='a'; y<='e'; y++) {
+                System.out.print(x);
+                System.out.println(y);
+            }
+
     }
 }
