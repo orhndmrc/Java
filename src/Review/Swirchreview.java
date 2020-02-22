@@ -4,7 +4,7 @@ public class Swirchreview {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Put the season:");
-        String season = input.next();
+      String season = input.next();
         switch(season){
             case "Spring":
                 System.out.println("1st");
