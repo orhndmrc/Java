@@ -10,7 +10,6 @@ public class Complexpassword {
                 System.out.print( (int) (Math.random() * 10));
             }
 
-
     }
         public static void main(String[] args){
             Complex(2,2);
