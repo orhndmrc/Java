@@ -11,6 +11,7 @@ public class Bank {
         this.Balance = balance;
     }
     public void AddMoney(int amount1){
+
         this.Balance +=amount1;
     }
     public void DrawMoney(int amount2){
