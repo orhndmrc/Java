@@ -8,6 +8,7 @@ class triangle implements Polygon{
     @Override
     public void CalculatePerimeter(int side) {
         System.out.println("Triangle's perimeter is "+(3*side));
+
     }
 }
 class square implements Polygon{
