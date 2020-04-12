@@ -14,6 +14,14 @@ public class TwoDimentionaArrayList_ {
                 number++;
             }
         }
-        System.out.println(x);
+        //System.out.println(x);
+        for(int i=0; i<x.size(); i++){
+            System.out.println(x.get(i));
+        }
+        for(ArrayList<Integer> arr:x){
+            for(int numbers : arr) {
+                System.out.println(numbers);
+            }
+        }
     }
 }
