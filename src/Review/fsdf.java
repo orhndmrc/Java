@@ -1,13 +1,11 @@
 package Review;
-import java.util.Scanner;
+//import java.util.Scanner;
 public class fsdf {
     public static void main(String[] args) {
-        Scanner scanner= new Scanner(System.in);
-        String name=scanner.next();
-        int age=scanner.nextInt();
-        String education= scanner.next();
-        int experience=scanner.nextInt();
-        String preference= scanner.next();
-        System.out.println("The form for "+ name +" is completed. We will contact you if we need a chef that cooks "+ preference+" dishes.");
+
+       String a = "1923";
+int b=Integer.max(5,6);
+
+        System.out.println(Math.PI);
     }
 }
