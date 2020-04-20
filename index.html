@@ -2,9 +2,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title s>My Webpage</title>
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <style>
+    div2 input {
+    color: blue
+    }
+    button::before {
+    content: "\21F2 Here  ";
+    font=weight: bold;
+    }
+    p::selection {
+    color :red;
+
+    }
+    input[type=text]{
+    background-color: lightblue
+    }
+     input[type=number]{
+    background-color: lightgreen
+    }
+    button:hover{
+    background-color: orange
+    }
    table {
    color: blue;
    background-color: #F6EF77;
@@ -19,30 +40,60 @@
         font-weight: bold;
       }
     </style>
+    <style>
+@media print {
+       .screen-only {
+           display: none;
+}
+}
+@media screen and (max-width: 580px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+    </style>
 </head>
-
+<body>
 <h1 style="color:blue;"align="center"> <i><u>Functions</u></i> </h1>
 <form align="right">
+    <div2>
     <input type="text" placeholder="Full Name" name="name">
     <input type="text" placeholder="Email" name="name">
     <input type="text" placeholder="Password" name="name">
-    <button> Login!</button>
+        <input type="number" placeholder="Age" name="name">
+        Are you an educator?
+        <input name="educator/student" type="radio" value="Yes">Yes
+        <input name="educator/student" type="radio" value="No">No
+        <input name="country" list="countries" placeholder="Country">
+        <datalist id="countries">
+            <option value="UK">
+            <option value="USA">
+            <option value="Canada">
+            <option value="Australia">
+        </datalist>
+        <button> Login!</button>
+    </div2>
+
 </form>
 <hr>
 <img src="Function Machine.jpg" align="right" height="400" width="30%">
-<p1 align="center">Function is an expression, rule, or law that defines a relationship between one variable
-    (the independent variable) and another variable (the dependent variable). For example,
-    the position of a planet is a function of time.<i></i></p1>
-<h2>Topics</h2>
+<p align="center"><i>Function is an expression, rule, or law that defines a relationship between one variable
+    (the independent variable) and another variable (the dependent variable).</i></p>
+
+<p class="screen-only">For example: A soda, snack, or stamp machine
+    The user puts in money, punches a specific button, and a specific item drops into
+    the output slot. (The function rule is the product price. The input is the money
+    combined with the selected button. The output is the product, sometimes delivered
+    along with coins in change, if the user has entered more money than required by the function rule.) </p>
+<h2 align="center">Topics</h2>
 <ol>
-    <li>Definition of Functions</li>
-    <li>Domain</li>
-    <li> Range</li>
-    <li>Types of Functions</li>
+    <li><a href="index1.html">Definition of Functions</a></li>
+    <li><a href="index2.html">Domain</a></li>
+    <li><a href="index3.html">Range</a></li>
+    <li><a href="index4.html">Types of Functions</a></li>
 </ol>
 
 <h3>Functions Types</h3>
-
 
 <table border="10">
     <tr>
@@ -76,8 +127,9 @@
     Think about real life examples of function!!!
 
 </div>
-<div2 id="Mathematics">
+<div1 id="Mathematics">
     "<span class="name"> Mathematics</span> is not about numbers, equations, computations or algorithms; it's about understanding."
-</div2>
+</div1>
+
 </body>
 </html>
