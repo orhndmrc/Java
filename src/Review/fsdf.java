@@ -1,23 +1,27 @@
 package Review;
 import java.util.Scanner;
-import java.util.Arrays;
+
 public class fsdf {
     public static void main(String[] args) {
         // put your code here
          Scanner scanner = new Scanner(System.in);
-         String str1 = scanner.nextLine();
-         String str2 = scanner.nextLine();
-         str1=str1.replaceAll(" ","");
-         str2= str2.replaceAll(" ","");
+         long num = scanner.nextLong();
 
-        if(str1.equals(str2)){
-                        System.out.println(true);
-                    }
-                    else{
-                        System.out.println(false);
-                    }
-                }
+        long fact = 1;
+        long number = 1;
+
+        while (fact < num){
+
+
+            for (long i = 2L; i <= number; i++) {
+                fact = fact * i ;
             }
+            number++;
+        }
+
+        System.out.println(number);
+    }
+}
 
 
 
