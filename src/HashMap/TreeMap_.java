@@ -8,9 +8,10 @@ import java.util.TreeSet;
 public class TreeMap_ {
     public static void main(String[] args) {
         TreeMap<String, Integer> grades = new TreeMap<String, Integer>();
+
         grades.put("Beyza", 100);
-        grades.put("Erol", 100);
-        grades.put("Azra", 100);
+        grades.put("Erol", 100) ;
+        grades.put("Azra", 100) ;
         grades.put("Recep", 100);
         grades.put("Havva", 100);
         grades.put("Berrin", 100);

@@ -1,27 +1,23 @@
 package Review;
-import java.util.Scanner;
+
+//import java.util.Scanner;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class fsdf {
     public static void main(String[] args) {
-        // put your code here
-         Scanner scanner = new Scanner(System.in);
-         long num = scanner.nextLong();
-
-        long fact = 1;
-        long number = 1;
-
-        while (fact < num){
-
-
-            for (long i = 2L; i <= number; i++) {
-                fact = fact * i ;
-            }
-            number++;
-        }
-
-        System.out.println(number);
+        ArrayList<Double> taxRates = new ArrayList<Double>(Arrays.asList(0.10, 0.15, 0.21, 0.28, 0.31));
+        ArrayList<Integer> denominations = new ArrayList<Integer>(Arrays.asList(1, 5, 10, 25, 50, 100));
+        System.out.println(denominations.get(0));
+        System.out.println(denominations.get(denominations.size()-1));
+      denominations.set(denominations.size()-1,-1);
+        denominations.add(0,10);
     }
+
 }
+
+
 
 
 
