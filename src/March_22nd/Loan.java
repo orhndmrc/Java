@@ -18,5 +18,6 @@ public class Loan  extends Bank{
     public double  calculateTotalPayment(){
         double total=this.loanAmount*this.interestRate;
         return total;
+
     }
 }
