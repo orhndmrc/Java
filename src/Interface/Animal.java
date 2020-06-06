@@ -8,6 +8,8 @@ public interface Animal {
 }
 class Cat implements  Animal {
     public void makeSound() {
+        String s= "ali";
+       
         System.out.println("meow");
     }
 
