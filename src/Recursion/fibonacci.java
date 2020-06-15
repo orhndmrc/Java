@@ -1,9 +1,29 @@
 package Recursion;
 
+import java.util.Scanner;
+
 public class fibonacci {
     public static void main(String[] args) {
-        for(int i =1; i<=10; i++) {//---> to show the fibonacci series
-            System.out.println(f(i));//---> to find a specific fibonacci number use sout(f(10)) for example
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Please enter a number value : ");
+        int n = scan.nextInt();// to show a fibonacci series until nth term
+        for(int i =1; i<=n; i++) {//---> to show the fibonacci series
+            String numberPostFix ="";
+            switch(i){
+                case 1:
+                    numberPostFix = "st";
+                    break;
+                case 2:
+                    numberPostFix = "nd";
+                    break;
+                case 3:
+                    numberPostFix = "rd";
+                    break;
+                default:
+                    numberPostFix = "th";
+                    break;
+            }
+            System.out.println(i+numberPostFix+" term "+f(i));//---> to find a specific fibonacci number use sout(f(10)) for example
         }
     }
     public static int f(int n){
